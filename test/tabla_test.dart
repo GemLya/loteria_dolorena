@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:loteria_dolorena/logica/baraja.dart';
 import 'package:loteria_dolorena/logica/tabla.dart';
+import 'package:loteria_dolorena/modelos/carta.dart';
 
 void main() {
   test('una tabla nueva contiene las 16 cartas, sin repetir', () {
@@ -16,4 +17,25 @@ void main() {
     final tabla = Tabla.generar(cartas);
     expect(tabla.marcadas.every((fila) => fila.every((m) => m == false)), true);
   });
+
+  test('marcar encuentra la carta en la tabla y marca su celda', () {
+    final cartas = Baraja.crearBarajaCompleta().cartasRestantes;
+    final tabla = Tabla.generar(cartas);
+    final cartaEnTabla = tabla.filas[0][0];
+
+    tabla.marcar(cartaEnTabla);
+
+    expect(tabla.marcadas[0][0], true);
+  });
+
+  test('marcar una carta que no esta en la tabla no cambia nada', () {
+    final cartas = Baraja.crearBarajaCompleta().cartasRestantes;
+    final tabla = Tabla.generar(cartas);
+    const cartaAjena = Carta(id: 999, nombre: 'Carta inexistente');
+
+    tabla.marcar(cartaAjena);
+
+    expect(tabla.marcadas.every((fila) => fila.every((m) => m == false)), true);
+  });
+
 }

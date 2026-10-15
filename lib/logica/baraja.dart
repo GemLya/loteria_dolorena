@@ -10,15 +10,12 @@ class Baraja {
     'El Caballo', 'La Bandera', 'El Insurgente', 'La Plaza',
     'El Fuego', 'La Estrella', 'El Aguila', 'El Tambor',
   ];
-
-  
-  void mezclar() => cartasRestantes.shuffle();
-
-  Carta? cantarSiguiente() {
+   void mezclar() => cartasRestantes.shuffle();
+   Carta? cantarSiguiente() {
     if (cartasRestantes.isEmpty) return null;
     return cartasRestantes.removeLast();
   }
-  Baraja.desdeCartas(List<Carta> cartas) : cartasRestantes = List<Carta>.from(cartas);
+    Baraja.desdeCartas(List<Carta> cartas) : cartasRestantes = List<Carta>.from(cartas);
 
   static Baraja crearBarajaCompleta() {
     final cartas = <Carta>[];
@@ -27,7 +24,6 @@ class Baraja {
     }
     return Baraja.desdeCartas(cartas);
   }
-
 
 
 }

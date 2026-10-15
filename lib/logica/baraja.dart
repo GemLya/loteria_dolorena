@@ -11,13 +11,7 @@ class Baraja {
     'El Fuego', 'La Estrella', 'El Aguila', 'El Tambor',
   ];
 
-  static Baraja crearBarajaCompleta() {
-    final cartas = <Carta>[];
-    for (var i = 0; i < _nombres.length; i++) {
-      cartas.add(Carta(id: i, nombre: _nombres[i]));
-    }
-    return Baraja._(cartas);
-  }
+  
   void mezclar() => cartasRestantes.shuffle();
 
   Carta? cantarSiguiente() {

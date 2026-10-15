@@ -6,16 +6,6 @@ class Tabla {
 
   Tabla._(this.filas, this.marcadas);
 
-  static Tabla generar(List<Carta> cartas) {
-    final copia = List<Carta>.from(cartas)..shuffle();
-    final filas = <List<Carta>>[];
-    for (var f = 0; f < 4; f++) {
-      filas.add(copia.sublist(f * 4, f * 4 + 4));
-    }
-    final marcadas = List.generate(4, (_) => List.generate(4, (_) => false));
-    return Tabla._(filas, marcadas);
-  }
-
   void marcar(Carta carta) {
     for (var f = 0; f < filas.length; f++) {
       for (var c = 0; c < filas[f].length; c++) {
@@ -26,5 +16,17 @@ class Tabla {
       }
     }
   }
+
+  Tabla.desdeFilas(this.filas) : marcadas = List.generate(4, (_) => List.generate(4, (_) => false));
+
+  static Tabla generar(List<Carta> cartas) {
+    final copia = List<Carta>.from(cartas)..shuffle();
+    final filas = <List<Carta>>[];
+    for (var f = 0; f < 4; f++) {
+      filas.add(copia.sublist(f * 4, f * 4 + 4));
+    }
+    return Tabla.desdeFilas(filas);
+  }
+
 
 }

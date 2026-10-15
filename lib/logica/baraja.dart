@@ -18,4 +18,10 @@ class Baraja {
     }
     return Baraja._(cartas);
   }
+  void mezclar() => cartasRestantes.shuffle();
+
+  Carta? cantarSiguiente() {
+    if (cartasRestantes.isEmpty) return null;
+    return cartasRestantes.removeLast();
+  }
 }

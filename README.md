@@ -28,4 +28,26 @@ Una cuadrícula de 4x4- fallo R4
 <img width="1463" height="292" alt="image" src="https://github.com/user-attachments/assets/76cea88e-ede0-4c04-9132-4c765105cb2b" />
 
 Una cuadrícula de 4x4- validacion R4
+<img width="1475" height="212" alt="image" src="https://github.com/user-attachments/assets/26e8c020-3dcc-4e4a-bdeb-329221045d2a" />
+
+RONDA 5 — Marcar una carta en la tabla
+
+Marcar una carta en la tabla - fallo R5
+<img width="1075" height="245" alt="image" src="https://github.com/user-attachments/assets/9ea45a2a-9c99-4200-9c1e-2124f5837266" />
+
+Marcar una carta en la tabla - validacion R5
+<img width="1473" height="242" alt="image" src="https://github.com/user-attachments/assets/8cd4f4b9-b451-4d2a-aad6-d5891014d914" />
+
+RONDA 6 — Detectar una línea horizontal ganadora
+
+Detectar una línea horizontal ganadora - fallo R6
+
+<img width="1461" height="356" alt="image" src="https://github.com/user-attachments/assets/3e46f4ea-00f8-4914-b25e-98e2f8f324d8" />
+
+Detectar una línea horizontal ganadora - validacion R6
+<img width="1472" height="197" alt="image" src="https://github.com/user-attachments/assets/9f84025f-297b-4245-b9e9-ff5b162da08c" />
+
+
+
+
 

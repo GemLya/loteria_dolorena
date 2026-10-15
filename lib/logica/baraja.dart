@@ -24,4 +24,16 @@ class Baraja {
     if (cartasRestantes.isEmpty) return null;
     return cartasRestantes.removeLast();
   }
+  Baraja.desdeCartas(List<Carta> cartas) : cartasRestantes = List<Carta>.from(cartas);
+
+  static Baraja crearBarajaCompleta() {
+    final cartas = <Carta>[];
+    for (var i = 0; i < _nombres.length; i++) {
+      cartas.add(Carta(id: i, nombre: _nombres[i]));
+    }
+    return Baraja.desdeCartas(cartas);
+  }
+
+
+
 }

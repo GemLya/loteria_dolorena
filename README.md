@@ -1,17 +1,31 @@
 # loteria_dolorena
+Pruebas
 
-A new Flutter project.
+RONDA 1 — La baraja completa
+La baraja completa- fallo
+<img width="1450" height="123" alt="image" src="https://github.com/user-attachments/assets/0d45fcc8-3d61-45a5-9f8c-d732744b71d0" />
+La baraja completa- validada
 
-## Getting Started
+<img width="762" height="223" alt="image" src="https://github.com/user-attachments/assets/081a6652-5809-4048-8360-95cd0eecb7cd" />
 
-This project is a starting point for a Flutter application.
+RONDA 2 — Barajar sin perder ni duplicar cartas
 
-A few resources to get you started if this is your first Flutter project:
+Barajar sin perder ni duplicar cartas- fallo R2
+<img width="1466" height="318" alt="image" src="https://github.com/user-attachments/assets/89757ce3-07ac-4549-ba0f-33ed89bde5ab" />
+Barajar sin perder ni duplicar cartas - validada R2
+<img width="1466" height="191" alt="image" src="https://github.com/user-attachments/assets/0e7e9517-770d-4970-bd78-15e414905954" />
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+RONDA 3 — Cantar cartas, una por una
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Cantar cartas, una por una- fallo R3
+<img width="1152" height="320" alt="image" src="https://github.com/user-attachments/assets/f9e1981a-e16f-4040-ba6c-407647bb7177" />
+Cantar cartas, una por una - validada R3
+<img width="1468" height="271" alt="image" src="https://github.com/user-attachments/assets/79361d6c-4747-492b-a24d-e150ea66df38" />
+
+RONDA 4 — La tabla: una cuadrícula de 4x4
+
+Una cuadrícula de 4x4- fallo R4
+<img width="1463" height="292" alt="image" src="https://github.com/user-attachments/assets/76cea88e-ede0-4c04-9132-4c765105cb2b" />
+
+Una cuadrícula de 4x4- validacion R4
+

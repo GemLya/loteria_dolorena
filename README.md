@@ -47,7 +47,39 @@ Detectar una línea horizontal ganadora - fallo R6
 Detectar una línea horizontal ganadora - validacion R6
 <img width="1472" height="197" alt="image" src="https://github.com/user-attachments/assets/9f84025f-297b-4245-b9e9-ff5b162da08c" />
 
+RONDA 7 — Detectar una columna ganadora
+
+Detectar una columna ganadora - fallo R7
+<img width="1465" height="325" alt="image" src="https://github.com/user-attachments/assets/43d26e26-8b0a-4a05-b667-4197035a5134" />
+
+Detectar una columna ganadora - validacion R7
+<img width="1470" height="222" alt="image" src="https://github.com/user-attachments/assets/a1879fc0-0d1e-45b8-aa71-8a287a663b8a" />
 
 
+RONDA 8 — Detectar una diagonal ganadora
+Detectar una diagonal ganadora - fallo R8
+
+<img width="1465" height="255" alt="image" src="https://github.com/user-attachments/assets/4faec279-7469-428a-98a2-455ac0b74feb" />
+
+Detectar una diagonal ganadora - validacion R8
+<img width="1470" height="263" alt="image" src="https://github.com/user-attachments/assets/ed2e1648-81cb-4d1b-bb2c-182928a7ee59" />
+
+RONDA 9 — Preparar el terreno para probar el juego completo
+
+Preparar el terreno para probar el juego completo - fallo R9
+
+La 'prueba que falla' aquí es conceptual: si intentamos escribir la prueba de integración de la Ronda 10 con el diseño actual, no podríamos controlar el orden — la prueba sería aleatoria e inútil.
+
+Preparar el terreno para probar el juego completo - validacion R9
+<img width="1475" height="282" alt="image" src="https://github.com/user-attachments/assets/c104b4ac-c55a-450f-8e98-80559d0973ee" />
+
+
+RONDA 10 — El motor de juego (integración completa)
+
+El motor de juego - fallo R10
+<img width="1450" height="303" alt="image" src="https://github.com/user-attachments/assets/c3fa1667-3822-4e40-9308-22b39172fc91" />
+
+El motor de juego - validacion R10
+<img width="1470" height="217" alt="image" src="https://github.com/user-attachments/assets/54149c19-7ef4-48fc-9470-58f58ee09340" />
 
 

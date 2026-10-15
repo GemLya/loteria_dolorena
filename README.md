@@ -82,4 +82,6 @@ El motor de juego - fallo R10
 El motor de juego - validacion R10
 <img width="1470" height="217" alt="image" src="https://github.com/user-attachments/assets/54149c19-7ef4-48fc-9470-58f58ee09340" />
 
+Interfaz gráfica
 
+<img width="936" height="101" alt="image" src="https://github.com/user-attachments/assets/3c2ef8be-f1f8-4008-8700-e8bce194c921" />
